@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-  color: #f0c040;
+  color: #f04556;
   font-size: 2em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -46,7 +46,7 @@ nav {
 
 nav a {
   display: block;
-  color: #0000cc;
+  color: #053321;
   text-decoration: none;
   margin-bottom: 10px;
   font-size: 1em;
@@ -55,18 +55,18 @@ nav a {
 
 /* PSEUDO CLASS: hover */
 nav a:hover {
-  color: #cc0000;
+  color: #cc4;
   text-decoration: underline;
 }
 
 /* PSEUDO CLASS: visited */
 nav a:visited {
-  color: #551a8b;
+  color: #552211;
 }
 
 /* PSEUDO CLASS: active */
 nav a:active {
-  color: #ff6600;
+  color: #f45221;
 }
 
 /* ===== MAIN CONTENT ===== */
