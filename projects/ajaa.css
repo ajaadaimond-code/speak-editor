@@ -1,12 +1,12 @@
 body{
-    background:#a9c3dc;
+    background:silver;
     font-family:"Times New Roman", serif;
 }
 
 #wrapper{
     width:965px;
     margin:55px auto;
-    background:#4d6a85;
+    background:#4dbc21;
 }
 
 header{
@@ -26,7 +26,7 @@ header{
     padding:35px 25px;
 
 }
-.h1{border: 5px solid rgb(42, 91, 96); background-color: #a9c3dc; margin-bottom: 20px;}
+.h1{border: 5px dashed rgb(42, 91, 96); background-color: greenyellow; margin-bottom: 20px;}
 
 
 nav ul{
@@ -37,8 +37,8 @@ nav ul li{
     margin-bottom:8px;
 }
 nav a:hover{
-    color: yellow;
-    background-color: navy;}
+    color: #bc3;
+    background-color: gray;}
 nav ul li a{
     text-decoration:none;
     color:navy;
@@ -53,11 +53,11 @@ main{
 
 
 footer{
-    background:#203f6b;
+    background:#ab3322;
     color:white;
     text-align:center;
     padding:8px;
-    border-top:3px solid #8c6f40;
-    border-bottom:3px solid #8c6f40;
+    border-top:3px dashed #8c6f40;
+    border-bottom:3px dashed #8c6f40;
     font-style:italic;
 } wakas
