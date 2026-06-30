@@ -1,74 +1,100 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="so">
 <head>
- <title> ajaa</title>
-<style>
-.dhaman{ border:3px solid orange;}
-.tijabo{border: 3px red dashed;
-  display:flex; padding:  3px
-}
-header{border: 4px solid yellow}
-nav{border: 3px black solid; flex:
-  1;
-}
-main{border: 4px red solid; flex:7;}
-aside{border: 4px  black solid; flex: 2;}
-footer {
-    text-align: center; 
-    padding: 10px 0;    
-    border: 5px solid orange;} 
-    header {
-    text-align: center;}
-
-
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darbo Gym - Isbadalka Jirkaaga</title>
+    <!-- Waxaan halkan ku xiriirinaynaa faylka CSS-ka -->
+    <link rel="stylesheet" href="salma.css">
 </head>
+<body>
 
-<body> 
-<div class="dhaman">
-  <header>
-  <h2>  welcome our data</h2>
-  </header>
-  <div class="tijabo">
-  <nav>
-    <a href=".index.html>home </a>
-    <a href="zoom.html">contact</a>
-  </nav>
-<main>
-  <p>welcome walal tani information kena si dagan u aqriso fadlan Mahadsaniidin mudanyal and marwoyin waa xog xasasi ah oo macqul ah oo mareyn iyo maamul labada leh ee sidagn u aqriso una firso thnks wa xog ka koban id name and phone wa ardy sharaf leh ooo aad kalimaha sare sogala kuwas oo aan abaal marin doono malmha so socda in.a maxa nagu tari krta adna sahibyal so dhawada oo nala qaybsda in.a</p> 
-</main>
-<aside>
-<p><table border="1">
-  <tr>
-    <td>id </td>
-    <td>name</td>
-    <td>tel</td>
-  </tr>
-  <tr>
-    <td>002</td>
-    <td>abdi</td>
-    <td>61583</td>
-  </tr>
-  <tr>
-    <td>223</td>
-    <td>ali</td>
-    <td>6154233</td>
-  </tr>
-  <tr>
-    <td>777</td>
-    <td>ajaa</td>
-    <td>61551523</td>
-  </tr>
-</table></p>
-</aside>
-    
-  </div>
+    <!-- NAV BAR (Qaybta Sare) -->
+    <header class="navbar">
+        <div class="logo">Darbo<span>Gym</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Adeegyada</a></li>
+                <li><a href="#pricing">Qiimaha</a></li>
+                <li><a href="#contact">Nala Soo Xiriir</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION (Bogga Hordhaca) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Beddel Jirkaaga, Beddel Noloshaada</h1>
+            <p>Ku biir gym-ka ugu casrisan magaalada si aad u gaarto yoolalkaaga caafimaad iyo dhisidda jirka.</p>
+            <a href="#pricing" class="btn">Ku Biir Hadda</a>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION (Adeegyada) -->
+    <section id="services" class="services">
+        <h2>Adeegyada Aan Bixinno</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <h3>Dhisidda Jirka</h3>
+                <p>Tababaro gaar ah oo loogu talagalay in lagu kordhiyo murqaha laguna qaabeeyo jirka.</p>
+            </div>
+            <div class="service-box">
+                <h3>Dhimista Miisaanka</h3>
+                <p>Barnaamijyo iyo jimicsiyo adag oo gubaya baruurta loona diyaariyey dhimista miisaanka.</p>
+            </div>
+            <div class="service-box">
+                <h3>Cunto Guri (Diet Plans)</h3>
+                <p>La-talin ku saabsan nafaqada iyo cuntooyinka ku habboon dhisidda jirka caafimaadka leh.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION (Qiimaha) -->
+    <section id="pricing" class="pricing">
+        <h2>Xirmooyinka Qiimaha</h2>
+        <div class="pricing-container">
+            <div class="price-box">
+                <h3>Xirmada caadiga</h3>
+                <div class="price">$15<span>/Bishii</span></div>
+                <ul>
+                    <li>Helitaanka Gym-ka (6 maalmood)</li>
+                    <li>Qalabka Caadiga ah</li>
+                    <li>Locker-ka Dharka</li>
+                </ul>
+                <a href="#contact" class="btn-price">Dooro Xirmada</a>
+            </div>
+            <div class="price-box VIP">
+                <h3>Xirmada VIP</h3>
+                <div class="price">$30<span>/Bishii</span></div>
+                <ul>
+                    <li>Helitaanka 24/7 Saacadoo kasta</li>
+                    <li>Tababare Gaar ah (Personal Trainer)</li>
+                    <li>Qorshaha Cuntada (Diet Plan)</li>
+                    <li>Sawnada & Qubayska</li>
+                </ul>
+                <a href="#contact" class="btn-price">Dooro Xirmada</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION (Xiriirka) -->
+    <section id="contact" class="contact">
+        <h2>Nala Soo Xiriir</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Magacaaga oo buuxa" required>
+                <input type="email" placeholder="Email-kaaga" required>
+                <textarea placeholder="Fariintaada ama Su'aashaada" rows="5" required></textarea>
+                <button type="submit" class="btn">Diro Fariinta</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER (Qaybta ugu hooseysa) -->
+    <footer>
+        <p>&copy; 2026 Darbo Gym. .</p>
+    </footer>
+
 </body>
-<footer>
-  &copy;abdinasirabdukadirahmed 
-</footer>
-  </div>
-
 </html>
